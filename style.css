@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Caveat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +15,12 @@ menu {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: top; */
+    display: block;
+
 }
 
 a {
@@ -28,10 +35,55 @@ button {
 
 body {
     background-image: url(./img/background.jpeg);
-    background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-repeat: repeat;
+    background-size: cover;
     height: 100vh;
 }
+
+section {
+    background-color: #007FFF;
+    color: #FFF;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+figure {
+    border: 4px solid #FFF;
+    width: 100%;
+    aspect-ratio: 5 / 4;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.content p {
+    margin-bottom: 0.75rem;
+}
+
+.btn {
+    text-align: center;
+    display: block;
+    border: 1px solid #FFF;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    margin-block: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #fff;
+    color: #007FFF;
+    border-color: currentColor;
+}
+
+
+
 
 .wrapper {
     font-family: 'Allison', cursive;
@@ -55,13 +107,13 @@ body {
 
 #text-container {
 
-    font-size: 30px;
-    line-height: 1.2;
+    font-size: 32px;
+    line-height: 1;
 
 }
 
 #text-container p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 /* #text-container p:after {
