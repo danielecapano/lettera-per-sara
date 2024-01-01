@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Caveat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+body {
+    background-image: url(./img/background.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100vh;
+}
+
+.wrapper {
+    font-family: 'Allison', cursive;
+    padding: 1.5rem;
+    color: rgb(61, 61, 61);
+}
+
+#title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#date {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+#text-container {
+
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+#text-container p {
+    margin-bottom: 0.5rem;
+}
+
+/* #text-container p:after {
+    content: " ";
+    display: inline-block;
+    width: 2px;
+    height: 100%;
+    border-right: 2px solid #000;
+    animation: typing 1s steps(20) infinite;
+}
+
+@keyframes typing {
+
+    from,
+    to {
+        width: 0;
+    }
+} */
