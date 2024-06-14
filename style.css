@@ -35,6 +35,12 @@ button {
 .img-full {
   height: 100%;
 }
+#lettera {
+  background-image: url(./img/background.jpeg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+}
 
 /* figure {
   -webkit-mask-image: url(./img/brush-mask-02.svg);
